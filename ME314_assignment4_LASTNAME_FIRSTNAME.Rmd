@@ -1,16 +1,21 @@
-# Linear Regression
+---
+title: "Lab 4 - Linear Regression"
+author: "Your name here"
+output: html_document
+---
 
-This assignment is based on the material covered in James et al. class. We will subsequently open up solutions to the problem sets.
-
-You will need to load the package from the course textbook:
-```{r}
-library("ISLR")
-```
-
+This assignment is based on the material covered in James et al. We will subsequently open up solutions to the problem sets.
 
 ## Exercise 4.1
 
-This question involves the use of multiple linear regression on the `Auto` data set.
+This question involves the use of multiple linear regression on the `Auto` data set. So load the data set from the `ISLR` package first.
+
+If the following code chunk returns an error, you most likely have to install the `ISLR` package first. Use `install.packages("ISLR")` if this is the case.
+
+```{r}
+data("Auto", package = "ISLR")
+```
+
 
 (a) Produce a scatterplot matrix which includes all of the variables in the data set.
 
@@ -31,7 +36,12 @@ This question involves the use of multiple linear regression on the `Auto` data 
 
 ## Exercise 4.2
 
-This question should be answered using the `Carseats` dataset from the `ISLR` package.
+This question should be answered using the `Carseats` dataset from the `ISLR` package. So load the data set from the `ISLR` package first.
+
+```{r}
+data("Carseats", package = "ISLR")
+```
+
 
 (a) Fit a multiple regression model to predict `Sales` using `Price`,
 `Urban`, and `US`.
