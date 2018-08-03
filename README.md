@@ -15,4 +15,6 @@ This is a fairly long and ambitious assignment, so feel free to work on on Frida
 
 ### Solutions
 
-Solutions to each assignment will be made available on the next day after each lab.
+Solution to Assignment 4 as:
+*  [md rendered as html](https://github.com/lse-me314/assignment04/blob/master/ME314_assignment4_solution.md) 
+*  [RMarkdown](ME314_assignment4_solution.Rmd)  
